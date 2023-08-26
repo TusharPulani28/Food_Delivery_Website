@@ -1,0 +1,161 @@
+@media screen and (max-width:1530px) {
+    #navbar{
+        margin-left:300px;
+    }
+}
+@media screen and (max-width:1480px) {
+    #navbar{
+        margin-left: 250px;
+    }
+}
+@media  screen and (max-width:1430px) {
+    #navbar{
+        margin-left: 200px;
+    }
+    #hovertag{
+        height: 100px;
+        width: 350px;
+    }
+}
+@media  screen and (max-width:1380px) {
+    #navbar{
+        margin-left: 150px;
+    }
+    #normalpara{
+        margin-left: 250px;
+    }
+}
+@media  screen and (max-width:1330px) {
+    #navbar{
+        margin-left: 100px;
+    }
+    #normalpara{
+        margin-left: 200px;
+    }
+    #main-content{
+        padding-right: 20px ;
+    }
+}
+
+@media  screen and (max-width:1280px) {
+    #navbar{
+        margin-left: 50px;
+    }
+    #normalpara{
+        margin-left: 150px;
+    }
+    #main-content{
+        padding-right: 40px ;
+    }
+}
+@media  screen and (max-width:1250px) {
+    /* #navbar{
+        margin-left: 50px;
+    } */
+    /* #normalpara{
+        margin-left: 150px;
+    }
+    #main-content{
+        padding-right: 40px ;
+    } */
+    #menubar{
+        display: block;
+        position: relative;
+        right: 50px;
+        padding-left: 900px;
+    }
+    #logo{
+        margin-left: 30px;
+    }
+    /* #response{
+        position: fixed;
+        width: 30vw;
+        height: 90vh;
+        background: pink;
+        top: 30px;
+        left: 0px;
+
+    } */
+    .links{
+        display: none;
+    }
+    #search1{
+        display: none;
+    }
+    #extra{
+        display: none;
+    }
+    #searchicon{
+        display: none;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+    #menubar{
+        padding-left: 470px;
+    }
+    #section{
+        height: 350px;
+    }
+    #normalpara{
+        width:500px;
+        margin-left: 130px;
+    }
+    .size{
+        height: 160px;
+        width: 160px;
+    }
+    #parent{ 
+        grid-template-columns: repeat(4,160px);
+    }
+    .anchor{
+        margin-left: 20px;
+    }
+    #footer_section{
+        height: 500px;
+    }
+    #col2{
+        position: relative;
+        top: 50px;
+        left: 100px;
+    }
+    #col3{
+        position: relative;
+        top: 50px;
+        left: 130px;
+    }
+    #col4{
+        position: relative;
+        top: 70px;
+        left: 180px;
+    }
+    #lastfoot{
+        position: relative;
+        top: 270px;
+        left: -500px;
+    
+    }
+    #res{
+        padding-left: 280px;
+    }
+    #mail-id{
+        display: block;
+        width: 85vw;
+        text-align: center;
+        margin-left: 0px;
+    }
+    #hovertag{
+        display: block;
+        width: 700px;
+    }
+    #submiticon{
+        height: 40px;
+        margin-top: 10px;
+        position: relative;
+        left: 280px;
+    }
+}
